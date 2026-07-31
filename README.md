@@ -66,7 +66,7 @@ fig.tight_layout()
 plt.show()
 ```
 ### Results
-![Skill_demand](3_Project\Images\Skill_demand_for_all_data_roles.png)
+![Skill_demand](3_Project/Images/Skill_demand_for_all_data_roles.png)
 
 ### Insights
 
