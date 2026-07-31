@@ -34,7 +34,7 @@ For this deep dive into the data analyst job market, I used several key tools:
 
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
 
-To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlightd the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
+To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlighted the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
 View my notebook with detailed steps here: [2_Skill_Demand.ipynb](3_Project\2_Skill_Demand.ipynb)
 
@@ -107,7 +107,7 @@ for i in range(5):
 
 ### Results
 
-![Trending Top SKills for Data Analysts in the US](3_Project\Images\Skill_Trend_for_Data_Analyst.png)
+![Trending Top Skills for Data Analysts in the US](3_Project/Images/Skill_Trend_for_Data_Analyst.png)
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights
@@ -137,7 +137,7 @@ plt.show()
 
 ### Results 
 
-![Salary Distribution by Data Jobs Roles](3_Project\Images\Salary_Distribution_by_Data_Jobs_Role.png)
+![Salary Distribution by Data Jobs Roles](3_Project/Images/Salary_Distribution_by_Data_Jobs_Role.png)
 
 ### Insights 
 - Seniority and role type both raise pay, but role type matters more. Every "Senior" version shows higher median salary than its base role, but the jump from Data Analyst to Data Engineer/Scientist is a much bigger leap than the jump from Data Analyst to Senior Data Analyst — suggesting switching roles pays off more than staying and waiting for seniority.
@@ -184,12 +184,12 @@ plt.show()
 ```
 
 ### Results
-![Highest Paid & Most In-Demand Skills for Data Analysts](3_Project\Images\Highest_Paid_and_Most_In-Demand_Skills_for_Data_Analysts.png)
+![Highest Paid & Most In-Demand Skills for Data Analysts](3_Project/Images/Highest_Paid_and_Most_In-Demand_Skills_for_Data_Analysts.png)
 
 ### Insights 
 - The highest-paying skills and the most in-demand skills are almost completely different lists — none of the top 10 highest-paying skills (dplyr, bitbucket, gitlab, solidity, hugging face...) overlap with the top 10 most in-demand ones (python, tableau, r, sql, sas...). Being in-demand doesn't mean being well-paid for a Data Analyst.
-- The highest-paying skills are niche, developer/engineering-adjacent tools (bitbucket, gitlab, ansible, cassandra, hugging face) rather than typical analyst tools — suggesting the pay premium goes to analysts who cross over into engineering/dev-adjacent work, not to deeper analytics work itself.
-- The most in-demand skills top out much lower in pay than the top-paying ones — even python, the single most requested skill, sits around 100k, well below every skill in the top-paying chart. This means chasing raw demand and chasing high pay are two different strategies, and the truly common, expected skills (excel, word, powerpoint) are both the most in-demand and the lowest-paying of the group.
+- The highest-paying skills are niche, developer/engineering-adjacent tools (Bitbucket, GitLab, Ansible, Cassandra, Hugging Face) rather than typical analyst tools — suggesting the pay premium goes to analysts who cross over into engineering/dev-adjacent work, not to deeper analytics work itself.
+- The most in-demand skills top out much lower in pay than the top-paying ones — even Python, the single most requested skill, sits around 100k, well below every skill in the top-paying chart. This means chasing raw demand and chasing high pay are two different strategies, and the truly common, expected skills (Excel, Word, PowerPoint) are both the most in-demand and the lowest-paying of the group.
 
 ## 4. What is the most optimal skill to learn for Data Analysts?
 
@@ -219,8 +219,8 @@ plt.show()
 ```
 
 ### Results 
-![Most Optimal Skills for Data Analyst in the US](3_Project\Images\Most_Optimal_Skills_for_Data_Analyst_in_the_US.png)
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+![Most Optimal Skills for Data Analyst in the US](3_Project/Images/Most_Optimal_Skills_for_Data_Analyst_in_the_US.png)
+*A scatter plot visualizing the most optimal skills (high-paying & high-demand) for data analysts in the US.*
 
 ### Insights 
 - Python and SQL are the clear standouts — Python leads on salary while also holding strong demand, and SQL has by far the highest demand while still paying well. Everything else trades off one for the other.
