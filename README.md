@@ -36,7 +36,7 @@ For this deep dive into the data analyst job market, I used several key tools:
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlighted the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
-View my notebook with detailed steps here: [2_Skill_Demand.ipynb](3_Project\2_Skill_Demand.ipynb)
+View my notebook with detailed steps here: [2_Skill_Demand.ipynb](3_Project/2_Skill_Demand.ipynb)
 
 ### Visualize Data
 ``` python
@@ -83,7 +83,7 @@ plt.show()
 
 ## 2. How are in-demand skills trending for Data Analysts?
 
-View my notebook with detailed steps here: [3_Skill_Trend.ipynb](3_Project\3_Skill_Trend.ipynb)
+View my notebook with detailed steps here: [3_Skill_Trend.ipynb](3_Project/3_Skill_Trend.ipynb)
 
 ### Visualize Data
 
@@ -108,7 +108,8 @@ for i in range(5):
 ### Results
 
 ![Trending Top Skills for Data Analysts in the US](3_Project/Images/Skill_Trend_for_Data_Analyst.png)
-*Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
+
+*Bar graph visualizing the trending top skills for data analysts in the US in 2026.*
 
 ### Insights
 - SQL stays the top skill all year, though it shows a gentle decline in demand from January toward December.
@@ -118,7 +119,7 @@ for i in range(5):
 
 ## 3. How well do jobs and skills pay for Data Analysts?
 
-View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 ### Visualize Data
 
@@ -193,7 +194,7 @@ plt.show()
 
 ## 4. What is the most optimal skill to learn for Data Analysts?
 
-View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](3_Project\5_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](3_Project/5_Optimal_Skills.ipynb)
 
 ### Visualize Data 
 ```python 
@@ -220,6 +221,7 @@ plt.show()
 
 ### Results 
 ![Most Optimal Skills for Data Analyst in the US](3_Project/Images/Most_Optimal_Skills_for_Data_Analyst_in_the_US.png)
+
 *A scatter plot visualizing the most optimal skills (high-paying & high-demand) for data analysts in the US.*
 
 ### Insights 
