@@ -1,0 +1,3 @@
+*.ipynb filter=clean diff=jupyternotebook
+*.ipynb merge=union
+*.ipynb text eol=lf
