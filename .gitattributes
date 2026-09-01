@@ -1,3 +1,9 @@
-*.ipynb filter=clean diff=jupyternotebook
-*.ipynb merge=union
+# Treat Jupyter notebooks as text so GitHub can render and diff them correctly
+# Do NOT set notebooks as binary or use an unknown `filter=` value that can alter the stored JSON
 *.ipynb text eol=lf
+
+# Optional: use nbdime for better notebook diffs (install and enable locally with `nbdime config-git --enable`)
+# *.ipynb diff=ipynb
+
+# Improve GitHub language statistics
+*.ipynb linguist-language=Jupyter Notebook
